@@ -23,3 +23,5 @@ const lastGame = (
 )
 
 console.log(lastGame)
+
+document.querySelector('.latest-result').innerHTML = `${lastGame.home} - ${lastGame.away}: ${lastGame.result}`
